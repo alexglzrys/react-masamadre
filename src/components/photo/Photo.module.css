@@ -1,0 +1,7 @@
+.Photo {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto 5rem;
+    transform: rotate(8deg);
+}
