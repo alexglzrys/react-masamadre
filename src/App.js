@@ -3,6 +3,7 @@ import Header from "./components/banner/Header";
 import Biography from "./components/biography/Biography";
 import Credentials from "./components/credentials/Credentials";
 import LinkButton from "./components/link_button/LinkButton";
+import Name from "./components/name/Name";
 import Photo from "./components/photo/Photo";
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
     <Credentials>
       <Biography>
         <Photo url="assets/images/irvin-quiroz.png" title="Irving Quiroz" />
+        <Name name="Irving Quiroz" />
       </Biography>
       <Biography>
         <Photo url="assets/images/amparo-espinoza.png" title="Amparo Espinoza" />
+        <Name name="Amparo Espinoza" />
       </Biography>
     </Credentials>
     <LinkButton
