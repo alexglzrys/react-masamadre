@@ -1,13 +1,52 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Serif&display=swap');
+
+@font-face {
+  font-family: 'Ecosmith Script Regular';
+  src: url('/public/assets/fonts/ecosmithscript-regular.eot');
+  src: url('/public/assets/fonts/ecosmithscript-regular.eot?#iefix') format('embedded-opentype'),
+       url('/public/assets/fonts/ecosmithscript-regular.woff2') format('woff2'),
+       url('/public/assets/fonts/ecosmithscript-regular.woff') format('woff'),
+       url('/public/assets/fonts/ecosmithscript-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+:root {
+  --color-primary: #A0A0A0;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-bg: rgb(29, 29, 29);
+  --color-gold: #d4991b;
+  --color-wheat: #f2dcb3;
+  --color-red: #C90B1C;
+  --color-red--alternative: #720912;
+}
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-size: 16px;
+  font-family: 'Roboto Serif', sans-serif;
+  color: var(--color-primary);
+  background-image: url('/public/assets/images/fondo-pan-mobile.png');
+  background-color: var(--color-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0 2rem;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
 }
