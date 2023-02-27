@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/banner/Header";
+import Biography from "./components/biography/Biography";
 import Credentials from "./components/credentials/Credentials";
 import LinkButton from "./components/link_button/LinkButton";
 import Photo from "./components/photo/Photo";
@@ -9,8 +10,12 @@ function App() {
     <>
     <Header />
     <Credentials>
-      <Photo url="assets/images/irvin-quiroz.png" title="Irving Quiroz" />
-      <Photo url="assets/images/amparo-espinoza.png" title="Amparo Espinoza" />
+      <Biography>
+        <Photo url="assets/images/irvin-quiroz.png" title="Irving Quiroz" />
+      </Biography>
+      <Biography>
+        <Photo url="assets/images/amparo-espinoza.png" title="Amparo Espinoza" />
+      </Biography>
     </Credentials>
     <LinkButton
       text="Conoce más"

@@ -1,0 +1,18 @@
+.Biography {
+    margin-bottom: 5rem;
+    text-align: justify;
+}
+
+
+@media screen and (min-width: 768px) {
+    .Biography {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Biography {
+        display: flex;
+        align-items: center;
+    }
+}
