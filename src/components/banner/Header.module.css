@@ -1,0 +1,13 @@
+.Header {
+    padding: 7rem 0 2rem;   
+}
+.Header__Title {
+    display: none;
+}
+.Header__Logotipo {
+    max-width: 1080px;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
