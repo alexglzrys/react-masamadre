@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LinkButton from "./components/link_button/LinkButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LinkButton
+      text="Conoce más"
+      url="https://www.youtube.com/watch?v=r7gRMfq00Os&list=PL9EzohqwHbVGRkTsxynoQ88tvE0kBFgQ8"
+      title="Conoce más"
+    />
   );
 }
 
