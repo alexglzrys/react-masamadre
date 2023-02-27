@@ -1,11 +1,15 @@
 import "./App.css";
 import Header from "./components/banner/Header";
+import Credentials from "./components/credentials/Credentials";
 import LinkButton from "./components/link_button/LinkButton";
 
 function App() {
   return (
     <>
     <Header />
+    <Credentials>
+      
+    </Credentials>
     <LinkButton
       text="Conoce más"
       url="https://www.youtube.com/watch?v=r7gRMfq00Os&list=PL9EzohqwHbVGRkTsxynoQ88tvE0kBFgQ8"
