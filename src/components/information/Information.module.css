@@ -1,0 +1,18 @@
+.Information {
+    margin-bottom: 3rem;
+}
+
+.Information p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .Information__Right {
+        margin-right: 4rem;
+    }
+    .Information__Left {
+        margin-left: 4rem;
+    }
+}
