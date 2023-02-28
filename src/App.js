@@ -15,7 +15,14 @@ function App() {
     <Main>
       <Header />
       <Features>
-        
+        <Description>
+          <div className="info wow animate__fadeIn" data-wow-duration=".5s">
+              <p>La masa madre está intrínsecamente ligada al nacimiento del pan tal y como lo conocemos. Su descubrimiento permitió por primera vez leudar el pan, mediante una fermentación natural, haciéndolo no sólo comestible sino también sabroso.</p>
+              <p>Gracias a su larga historia, su sabor y al hecho de que se mantiene fresco durante más tiempo, el pan de masa madre sigue siendo una parte central de la tradición panadera de muchas culturas.</p>
+              <p>La masa madre es un ingrediente natural, que se obtiene mediante la fermentación de los cereales, a través de las bacterias y levaduras presentes en ellos y en el medio ambiente. Su fermentación natural permite a nuestro cuerpo absorber más fácilmente sus nutrientes, lo que convierte al pan de masa madre en una opción muy nutritiva. Además, es tan ligero que no inflama tu intestino, es fácil de digerir gracias a la degradación de azúcares, almidones y gluten. También es famoso por tener una corteza crujiente, una textura gruesa y un aroma intenso.</p>
+              <p>Si buscas una opción nutritiva para tu familia, ¡el pan de masa madre es una excelente alternativa!</p>
+          </div>
+        </Description>
       </Features>
       <Credentials>
         <Biography direction="reverse">
