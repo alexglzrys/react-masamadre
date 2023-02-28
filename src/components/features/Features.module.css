@@ -1,0 +1,49 @@
+.Features {
+    padding-bottom: 2rem;
+}
+.Features__Header {
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Features__Title {
+    font-family: 'Ecosmith Script Regular';
+    font-size: 2.5rem;
+    line-height: 1.3;
+    font-weight: normal;
+    width: 825px;
+    text-align: center;
+    padding: 0 2rem;
+    background: linear-gradient(var(--color-wheat), var(--color-gold));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Features__Header::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-white);
+    opacity: .2;
+}
+.Features__Header::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-white);
+    opacity: .2;
+}
+
+@media screen and (min-width: 768px) {
+    .Features__Header {
+        margin-bottom: 4rem;
+    }
+    .Features__Title {
+        font-size: 3.563rem;
+    }
+}

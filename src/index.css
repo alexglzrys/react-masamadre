@@ -50,3 +50,17 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@media screen and (min-width: 768px) {
+  body {      
+    background-image:
+        url('/public/assets/images/elementos_izquierda.png'),
+        url('/public/assets/images/elementos_derecha.png'),
+        url('/public/assets/images/fondo.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: contain, contain, cover;
+    background-position: left, right, center;
+    background-attachment: fixed, fixed, fixed;
+    padding: 0 4rem;
+}
+}

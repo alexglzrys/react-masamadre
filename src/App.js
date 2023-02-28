@@ -3,6 +3,7 @@ import Header from "./components/banner/Header";
 import Biography from "./components/biography/Biography";
 import Credentials from "./components/credentials/Credentials";
 import Description from "./components/description/Description";
+import Features from "./components/features/Features";
 import Information from "./components/information/Information";
 import LinkButton from "./components/link_button/LinkButton";
 import Main from "./components/main/Main";
@@ -13,6 +14,9 @@ function App() {
   return (
     <Main>
       <Header />
+      <Features>
+        
+      </Features>
       <Credentials>
         <Biography direction="reverse">
           <Photo url="assets/images/irvin-quiroz.png" title="Irving Quiroz" rotate="8deg" />
