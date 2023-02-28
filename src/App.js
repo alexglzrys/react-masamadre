@@ -9,12 +9,14 @@ import LinkButton from "./components/link_button/LinkButton";
 import Main from "./components/main/Main";
 import Name from "./components/name/Name";
 import Photo from "./components/photo/Photo";
+import Video from "./components/video/Video";
 
 function App() {
   return (
     <Main>
       <Header />
       <Features>
+        <Video url="https://www.youtube.com/embed/eEAz7E1TP5c" title="YouTube video player" />
         <Description>
           <div className="info wow animate__fadeIn" data-wow-duration=".5s">
               <p>La masa madre está intrínsecamente ligada al nacimiento del pan tal y como lo conocemos. Su descubrimiento permitió por primera vez leudar el pan, mediante una fermentación natural, haciéndolo no sólo comestible sino también sabroso.</p>
