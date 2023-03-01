@@ -16,6 +16,7 @@ import Main from "./components/main/Main";
 import Name from "./components/name/Name";
 import Photo from "./components/photo/Photo";
 import Video from "./components/video/Video";
+import Slides from "./components/slides/Slides";
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,9 @@ function App() {
               <p>Si buscas una opción nutritiva para tu familia, ¡el pan de masa madre es una excelente alternativa!</p>
           </div>
         </Description>
+        <Slides>
+          
+        </Slides>
       </Features>
       <Credentials>
         <Biography direction="reverse">

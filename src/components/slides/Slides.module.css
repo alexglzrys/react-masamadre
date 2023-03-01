@@ -1,0 +1,26 @@
+.Slides {
+    margin: 3rem 0;
+    position: relative;
+    overflow-x: hidden;
+    height: calc(200px + 3rem);
+}
+
+@media screen and (min-width: 480px) {
+    .Slides {
+        height: calc(360px + 3rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Slides {
+        margin: 6rem 0 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Slides {
+        margin: 6rem 0;
+        height: 320px;
+        overflow: hidden;
+    }
+}
