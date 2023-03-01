@@ -4,6 +4,7 @@ import Biography from "./components/biography/Biography";
 import Credentials from "./components/credentials/Credentials";
 import Description from "./components/description/Description";
 import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
 import Information from "./components/information/Information";
 import LinkButton from "./components/link_button/LinkButton";
 import Main from "./components/main/Main";
@@ -57,11 +58,13 @@ function App() {
           </Information>
         </Biography>
       </Credentials>
-      <LinkButton
-        text="Conoce más"
-        url="https://www.youtube.com/watch?v=r7gRMfq00Os&list=PL9EzohqwHbVGRkTsxynoQ88tvE0kBFgQ8"
-        title="Conoce más"
-      />
+      <Footer>
+        <LinkButton
+          text="Conoce más"
+          url="https://www.youtube.com/watch?v=r7gRMfq00Os&list=PL9EzohqwHbVGRkTsxynoQ88tvE0kBFgQ8"
+          title="Conoce más"
+        />
+      </Footer>
     </Main>
     
   );
