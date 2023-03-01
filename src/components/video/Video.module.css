@@ -7,9 +7,17 @@
     margin-bottom: 1.5rem;
 }
 
+.VideoSlide {
+    width: 100%;
+    height: 200px;
+}
+
 @media screen and (min-width: 480px) {
     .Video {
         height: 380px;
+    }
+    .VideoSlide {
+        height: 360px;
     }
 }
 
@@ -19,5 +27,11 @@
         max-width: 1080px;
         width: 100%;
         margin-bottom: 6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) { 
+    .VideoSlide {
+        height: 320px;
     }
 }

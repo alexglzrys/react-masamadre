@@ -18,7 +18,34 @@ import Photo from "./components/photo/Photo";
 import Video from "./components/video/Video";
 import Slides from "./components/slides/Slides";
 
+// import Swiper core and required modules
+import { Pagination, Scrollbar, Navigation, A11y } from 'swiper';
+import {Swiper, SwiperSlide} from "swiper/react";
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+const breakpoints = {
+  0: {
+    slidesPerView: 1,
+    spaceBetween: 30
+  },
+  768: {
+      slidesPerView: 2,
+      spaceBetween: 15
+  },
+  1024: {
+      slidesPerView: 3,
+      spaceBetween: 15
+  }
+}
+
 function App() {
+
+  console.log('refrescando')
   useEffect(() => {
     new WOW({
       boxClass:     'wow',      // default
@@ -43,7 +70,27 @@ function App() {
           </div>
         </Description>
         <Slides>
-          
+          <Swiper 
+            modules={[Pagination, Scrollbar, Navigation, A11y]}
+            loop
+            pagination={{ clickable: true }}
+            navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next'}}
+            breakpoints={breakpoints}
+            >
+            <SwiperSlide>
+              <Video url="https://www.youtube.com/embed/slb2wtUNY5M?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Video url="https://www.youtube.com/embed/3lbjOeOEliY?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Video url="https://www.youtube.com/embed/ZYjjg-M5oIk?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
+            </SwiperSlide> 
+              <div className="swiper-nav">
+                  <div className="swiper-button-prev"></div>
+                  <div className="swiper-button-next"></div>
+              </div>
+          </Swiper>
         </Slides>
       </Features>
       <Credentials>

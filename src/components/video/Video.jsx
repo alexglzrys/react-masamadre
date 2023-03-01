@@ -4,7 +4,7 @@ import styles from "./Video.module.css";
 function Video({ url, title, slide = false }) {
   return (
     <iframe
-      className={`${slide ? styles.Slide : `${styles.Video} wow animate__fadeIn`}`}
+      className={`${slide ? styles.VideoSlide : `${styles.Video} wow animate__fadeIn`}`}
       data-wow-duration="6s"
       src={url}
       title={title}
