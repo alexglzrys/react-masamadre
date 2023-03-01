@@ -1,4 +1,9 @@
+import { useEffect } from "react";
 import "./App.css";
+
+import 'animate.css';
+import WOW from 'wow.js'
+
 import Header from "./components/banner/Header";
 import Biography from "./components/biography/Biography";
 import Credentials from "./components/credentials/Credentials";
@@ -13,6 +18,16 @@ import Photo from "./components/photo/Photo";
 import Video from "./components/video/Video";
 
 function App() {
+  useEffect(() => {
+    new WOW({
+      boxClass:     'wow',      // default
+      animateClass: 'animate__animated', // default
+      offset:       0,          // default
+      mobile:       true,       // default
+      live:         true        // default
+    }).init();
+  }, [])
+
   return (
     <Main>
       <Header />
