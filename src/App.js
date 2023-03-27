@@ -60,7 +60,7 @@ function App() {
     <Main>
       <Header />
       <Features>
-        <Video url="https://www.youtube.com/embed/eEAz7E1TP5c" title="YouTube video player" />
+        <Video url="https://www.youtube-nocookie.com/embed/eEAz7E1TP5c" title="YouTube video player" />
         <Description>
           <div className="info wow animate__fadeIn" data-wow-duration=".5s">
               <p>La masa madre está intrínsecamente ligada al nacimiento del pan tal y como lo conocemos. Su descubrimiento permitió por primera vez leudar el pan, mediante una fermentación natural, haciéndolo no sólo comestible sino también sabroso.</p>
@@ -78,13 +78,13 @@ function App() {
             breakpoints={breakpoints}
             >
             <SwiperSlide>
-              <Video url="https://www.youtube.com/embed/slb2wtUNY5M?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
+              <Video url="https://www.youtube-nocookie.com/embed/slb2wtUNY5M?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
             </SwiperSlide>
             <SwiperSlide>
-              <Video url="https://www.youtube.com/embed/3lbjOeOEliY?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
+              <Video url="https://www.youtube-nocookie.com/embed/3lbjOeOEliY?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
             </SwiperSlide>
             <SwiperSlide>
-              <Video url="https://www.youtube.com/embed/ZYjjg-M5oIk?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
+              <Video url="https://www.youtube-nocookie.com/embed/ZYjjg-M5oIk?enablejsapi=1&rel=0" title="YouTube video player" slide={true} />
             </SwiperSlide> 
               <div className="swiper-nav">
                   <div className="swiper-button-prev"></div>
